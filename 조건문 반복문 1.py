@@ -1,12 +1,12 @@
 numbers = []
-total = 0
+total = 10
 
 while True:
     num = int(input("숫자를 입력하시오: "))
     numbers.append(num)
     total += num
 
-    if total > 100:
+    if total > 50:
         break
 
 
